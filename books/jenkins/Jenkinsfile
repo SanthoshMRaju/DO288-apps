@@ -14,7 +14,7 @@ pipeline {
         DEV_PROJECT = "sraju-ca-ibm-com-books-dev"
         STAGE_PROJECT = "sraju-ca-ibm-com-books-stage"
         APP_GIT_URL = "https://github.com/SanthoshMRaju/DO288-apps"
-        NEXUS_SERVER = ${RHT_OCP4_NEXUS_SERVER}
+        NEXUS_SERVER = "${RHT_OCP4_NEXUS_SERVER}"
 
         // DO NOT CHANGE THE GLOBAL VARS BELOW THIS LINE
         APP_NAME = "books"
